@@ -6,7 +6,9 @@
     "dev": "vite ",
     "build": "vite build",
     "serve": "vite preview",
-    "build:mddir": "node ./node_modules/mddir/src/mddir.js ./"
+    "deploy": "npm install & vite build",
+    "build:mddir": "node ./node_modules/mddir/src/mddir.js ./",
+    "lint:pre": "prettier -c --write \"src/**/*\""
   },
   "author": "AxyLm",
   "license": "Apache-2.0",
@@ -15,6 +17,7 @@
     "glob": "^7.1.7",
     "less": "^4.1.1",
     "mddir": "^1.1.1",
+    "prettier": "^2.4.1",
     "vite": "^2.5.0"
   },
   "repository": {
