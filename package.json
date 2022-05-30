@@ -1,6 +1,6 @@
 {
   "name": "vite-html-template",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "main.js",
   "scripts": {
     "dev": "vite ",
@@ -36,5 +36,5 @@
     "css",
     "less"
   ],
-  "description": "使用vite自动编译html多页面，代码压缩，自动es6转es5。"
+  "description": "使用vite自动编译多个 html 入口，代码压缩，less，自动 es6 转 es5。"
 }

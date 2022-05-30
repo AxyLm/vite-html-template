@@ -4,7 +4,7 @@
 <strong>vite-html-template</strong>
 </h1>
 
-## vite 多页面自动构建
+## vite 多页面自动识别构建
 
 ### 结构
 
@@ -18,7 +18,6 @@
 | src/**home**/index.html  | dist/src/**home**/index.html                  |          |
 | src/default/main.less          | dist/src/assets/default.09585f4e.css                | css      |
 | src/defaul/logo.svg            | dist/src/assets/logo.17e50649.svgrc/defaul/logo.svg | svg      |
-
 
 ## 安装依赖
 
@@ -43,7 +42,6 @@ npm run build
 ```
 npm run build:mddir
 ```
-
 
 ### 开发目录
 
@@ -83,3 +81,6 @@ npm run build:mddir
 |-- home
 |-- index.html
 ```
+
+### 衍生项目
+[Jade Rabbit](https://github.com/AxyLm/AxyLm.github.io)  业余开发整理
